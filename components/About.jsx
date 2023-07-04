@@ -7,10 +7,10 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'>// I am not your normal developer</p>
+                <p className='py-2 text-gray-600'>&#47;&#47; I am not your normal developer</p>
                 <br></br>
                 <p className='py-2 text-gray-600 text-sm md:text-base'>
-                Hello, I'm Shivansh Srivastava, a fourth-year Computer Science engineering student at Jaypee Institute of Information Technology. 
+                Hello, I&apos;m Shivansh Srivastava, a fourth-year Computer Science engineering student at Jaypee Institute of Information Technology. 
                 With a passion for programming since 11th grade, I have honed my skills in languages like C++ and gained experience in React.js,
                  Node.js, Python, and more. Alongside technical expertise, I possess strong management and communication abilities.
                 </p>
