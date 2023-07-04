@@ -8,9 +8,9 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto pt-8 p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S GROW TOGETHER</p>
+                <p className='uppercase text-sm tracking-widest text-gray-600'>LET&apos;S GROW TOGETHER</p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#5651e5]'>Shivansh</span>
+                    Hi, I&apos;m <span className='text-[#5651e5]'>Shivansh</span>
                 </h1>
                 <h1 className='py-4 text-gray-700'>
                     A Tech Enthusiast
@@ -19,7 +19,7 @@ const Main = () => {
                 A skilled and resourceful computer science student. 
                 With expertise in various technologies, I thrive on 
                 tackling coding challenges with a calm and focused 
-                approach. Let's collaborate and create exceptional 
+                approach. Let&apos;s collaborate and create exceptional 
                 solutions that make a difference.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
