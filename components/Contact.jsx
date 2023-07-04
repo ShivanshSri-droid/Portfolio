@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -16,12 +17,12 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full '>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2001&q=80' alt='/'/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' width='450' height='300' src='https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2001&q=80' alt='/'/>
                         </div>
                         <div>
                             <h2 className='py-2'>Shivansh Srivastava</h2>
                             <p>Front-End Developer</p>
-                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect With Me</p>
